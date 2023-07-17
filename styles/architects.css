@@ -14,7 +14,7 @@
     padding: 20px 25px;
     color: #FFFF;
     font-size: 1.25rem;
-    font-weight:600 ;
+    font-weight: 600;
     cursor: pointer;
     border: none;
 
@@ -72,8 +72,9 @@ nav li a {
 .banner-description {
     color: #727272;
 }
-.banner img{
-    width:100% ;
+
+.banner img {
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -83,20 +84,64 @@ nav li a {
 @media screen and (max-width: 576px) {
     header {
         padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
-nav{
-    flex-direction: column;
-}
-}
+
 /*tablet or medium devices*/
 @media screen and (min-width:576px) and (max-width:960px) {
     header {
         padding: 50px;
-}
+    }
+
     nav {
         flex-direction: column;
 
 
     }
-    
+
+}
+
+/*main styles*/
+
+main {
+
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*teams styles*/
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+.teams-content {
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.teams-title {
+    font-size: 2.5rem;
+}
+
+.teams-title .quick-list{
+    color: #727272;
+    font-weight:450;
+}
+.teams-title .text-features{
+    color:  #FF900E;
+    font-weight: 650;
 }
