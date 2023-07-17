@@ -127,10 +127,37 @@ main {
     font-weight: 650;
 }
 
+/*feature section*/
+
+.features {
+    margin-top: 110px;
+    display: flex;
+    gap: 60px;
+}
+
+.features-content .card {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features-img {
+    width: 650px;
+    height: 900px;
+
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
 
 /*facts section*/
 
-.facts-card-container{
+.facts-card-container {
     justify-content: space-around;
     display: flex;
 }
@@ -142,34 +169,49 @@ main {
     padding: 20px;
 }
 
-.facts-card-container .card-title{
+.facts-card-container .card-title {
     font-weight: 500;
     font-size: 1.20rem;
     margin-top: 2px;
 }
 
-.facts-card-container .card-stats{
-    font-size:2.5rem;
+.facts-card-container .card-stats {
+    font-size: 2.5rem;
     color: #424242;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
+.ten-years-badge {
+    border-radius: 5px;
+    background: #FF900E;
+    color: #FFF;
+    width: 250px;
+    padding: 20px;
+    
+
+}
+
+.ten-years-badge h2{
+    font-size:2rem ;
+}
+
 /*sponsours styles*/
-.sponsors{
+.sponsors {
     text-align: center;
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap:35px;
+    gap: 35px;
 }
 
-.sponsors-img-container img{
-    width:160px;
-   
+.sponsors-img-container img {
+    width: 160px;
+
 }
 
 
@@ -203,10 +245,11 @@ main {
         padding-right: 10px;
         padding-left: 10px;
     }
-    .facts-card-container{
-        gap:15px;
+
+    .facts-card-container {
+        gap: 15px;
     }
-  
+
 }
 
 /*tablet or medium devices*/
